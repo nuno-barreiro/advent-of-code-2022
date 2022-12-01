@@ -5,6 +5,12 @@ defmodule Day01 do
     head
   end
 
+  def run_part_two(input) do
+    get_elves_calories_list(input)
+    |> Enum.take(3)
+    |> Enum.sum()
+  end
+
   defp get_elves_calories_list(input),
     do:
       String.split(input, ~r/\n/)
