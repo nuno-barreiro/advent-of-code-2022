@@ -7,5 +7,4 @@ defmodule Day01Test do
 
     assert expected_result == Day01.run_part_one(test_input)
   end
-
 end
