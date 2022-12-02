@@ -7,4 +7,11 @@ defmodule Day02Test do
 
     assert Day02.run_part_one(input) == expected_result
   end
+
+  test "part two" do
+    expected_result = 12
+    input = "A Y\nB X\nC Z"
+
+    assert Day02.run_part_two(input) == expected_result
+  end
 end
